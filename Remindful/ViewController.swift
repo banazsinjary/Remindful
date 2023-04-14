@@ -1,10 +1,3 @@
-//
-//  ViewController.swift
-//  Remindful
-//
-//  Created by Banaz Sinjary on 4/12/23.
-//
-
 import UIKit
 
 class ViewController: UIViewController {

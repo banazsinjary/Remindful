@@ -16,6 +16,8 @@
 		ABAF414329E7369700669FB0 /* RemindfulTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAF414229E7369700669FB0 /* RemindfulTests.swift */; };
 		ABAF414D29E7369700669FB0 /* RemindfulUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAF414C29E7369700669FB0 /* RemindfulUITests.swift */; };
 		ABAF414F29E7369700669FB0 /* RemindfulUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAF414E29E7369700669FB0 /* RemindfulUITestsLaunchTests.swift */; };
+		ABAF415D29E7406100669FB0 /* HabitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAF415C29E7406100669FB0 /* HabitView.swift */; };
+		ABAF415F29E740CE00669FB0 /* ToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAF415E29E740CE00669FB0 /* ToDoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		ABAF414C29E7369700669FB0 /* RemindfulUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindfulUITests.swift; sourceTree = "<group>"; };
 		ABAF414E29E7369700669FB0 /* RemindfulUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindfulUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		ABAF415B29E736B200669FB0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		ABAF415C29E7406100669FB0 /* HabitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitView.swift; sourceTree = "<group>"; };
+		ABAF415E29E740CE00669FB0 /* ToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,10 +108,12 @@
 				ABAF412B29E7369600669FB0 /* AppDelegate.swift */,
 				ABAF412D29E7369600669FB0 /* SceneDelegate.swift */,
 				ABAF412F29E7369600669FB0 /* ViewController.swift */,
+				ABAF415C29E7406100669FB0 /* HabitView.swift */,
 				ABAF413129E7369600669FB0 /* Main.storyboard */,
 				ABAF413429E7369700669FB0 /* Assets.xcassets */,
 				ABAF413629E7369700669FB0 /* LaunchScreen.storyboard */,
 				ABAF413929E7369700669FB0 /* Info.plist */,
+				ABAF415E29E740CE00669FB0 /* ToDoView.swift */,
 			);
 			path = Remindful;
 			sourceTree = "<group>";
@@ -261,8 +267,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABAF413029E7369600669FB0 /* ViewController.swift in Sources */,
+				ABAF415D29E7406100669FB0 /* HabitView.swift in Sources */,
 				ABAF412C29E7369600669FB0 /* AppDelegate.swift in Sources */,
 				ABAF412E29E7369600669FB0 /* SceneDelegate.swift in Sources */,
+				ABAF415F29E740CE00669FB0 /* ToDoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
