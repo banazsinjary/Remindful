@@ -41,6 +41,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="8Y8-Eq-BDY" firstAttribute="bottom" secondItem="u1s-ZZ-D5M" secondAttribute="bottom" id="WpY-FS-lof"/>
+                            <constraint firstItem="u1s-ZZ-D5M" firstAttribute="top" secondItem="8Y8-Eq-BDY" secondAttribute="top" constant="50" id="YGU-jf-Bv6"/>
                             <constraint firstItem="u1s-ZZ-D5M" firstAttribute="leading" secondItem="8Y8-Eq-BDY" secondAttribute="leading" id="die-n8-edk"/>
                             <constraint firstItem="u1s-ZZ-D5M" firstAttribute="top" secondItem="8Y8-Eq-BDY" secondAttribute="top" id="eq9-Du-xuV"/>
                             <constraint firstItem="8Y8-Eq-BDY" firstAttribute="trailing" secondItem="u1s-ZZ-D5M" secondAttribute="trailing" id="tTD-xA-3TS"/>
