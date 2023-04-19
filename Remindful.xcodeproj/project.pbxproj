@@ -109,11 +109,11 @@
 				ABAF412D29E7369600669FB0 /* SceneDelegate.swift */,
 				ABAF412F29E7369600669FB0 /* ViewController.swift */,
 				ABAF415C29E7406100669FB0 /* HabitView.swift */,
+				ABAF415E29E740CE00669FB0 /* ToDoView.swift */,
 				ABAF413129E7369600669FB0 /* Main.storyboard */,
 				ABAF413429E7369700669FB0 /* Assets.xcassets */,
 				ABAF413629E7369700669FB0 /* LaunchScreen.storyboard */,
 				ABAF413929E7369700669FB0 /* Info.plist */,
-				ABAF415E29E740CE00669FB0 /* ToDoView.swift */,
 			);
 			path = Remindful;
 			sourceTree = "<group>";
