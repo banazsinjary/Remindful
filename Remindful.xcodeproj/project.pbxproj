@@ -18,6 +18,8 @@
 		ABAF414F29E7369700669FB0 /* RemindfulUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAF414E29E7369700669FB0 /* RemindfulUITestsLaunchTests.swift */; };
 		ABAF415D29E7406100669FB0 /* HabitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAF415C29E7406100669FB0 /* HabitView.swift */; };
 		ABAF415F29E740CE00669FB0 /* ToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAF415E29E740CE00669FB0 /* ToDoView.swift */; };
+		ABB0E0FF29F5C33A00C8AD47 /* LandingPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB0E0FE29F5C33A00C8AD47 /* LandingPageView.swift */; };
+		ABD9E7CA29F8DF3300867343 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD9E7C929F8DF3300867343 /* TabViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 		ABAF415B29E736B200669FB0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		ABAF415C29E7406100669FB0 /* HabitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitView.swift; sourceTree = "<group>"; };
 		ABAF415E29E740CE00669FB0 /* ToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoView.swift; sourceTree = "<group>"; };
+		ABB0E0FE29F5C33A00C8AD47 /* LandingPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPageView.swift; sourceTree = "<group>"; };
+		ABD9E7C929F8DF3300867343 /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,10 +110,12 @@
 			isa = PBXGroup;
 			children = (
 				ABAF412B29E7369600669FB0 /* AppDelegate.swift */,
+				ABD9E7C929F8DF3300867343 /* TabViewController.swift */,
 				ABAF412D29E7369600669FB0 /* SceneDelegate.swift */,
 				ABAF412F29E7369600669FB0 /* ViewController.swift */,
 				ABAF415C29E7406100669FB0 /* HabitView.swift */,
 				ABAF415E29E740CE00669FB0 /* ToDoView.swift */,
+				ABB0E0FE29F5C33A00C8AD47 /* LandingPageView.swift */,
 				ABAF413129E7369600669FB0 /* Main.storyboard */,
 				ABAF413429E7369700669FB0 /* Assets.xcassets */,
 				ABAF413629E7369700669FB0 /* LaunchScreen.storyboard */,
@@ -267,9 +273,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABAF413029E7369600669FB0 /* ViewController.swift in Sources */,
+				ABB0E0FF29F5C33A00C8AD47 /* LandingPageView.swift in Sources */,
 				ABAF415D29E7406100669FB0 /* HabitView.swift in Sources */,
 				ABAF412C29E7369600669FB0 /* AppDelegate.swift in Sources */,
 				ABAF412E29E7369600669FB0 /* SceneDelegate.swift in Sources */,
+				ABD9E7CA29F8DF3300867343 /* TabViewController.swift in Sources */,
 				ABAF415F29E740CE00669FB0 /* ToDoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
