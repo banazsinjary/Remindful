@@ -38,6 +38,9 @@
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="+" id="5dC-Ns-uTu">
                             <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="addButtonTapped:" destination="BYZ-38-t0r" id="svN-kJ-pk7"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>

@@ -15,6 +15,35 @@ class HabitView: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     @IBOutlet weak var habitTable: UITableView!
     
+    @IBAction func addButtonTapped(_ sender: UIBarButtonItem) {
+        let alert = UIAlertController(title: "New Habit", message: nil, preferredStyle: .alert)
+        
+        alert.addTextField {textField in
+            textField.placeholder = "New Habit"
+        }
+        
+        let addButton = UIAlertAction(title: "Done", style: .default){action in
+            guard let text = alert.textFields?.first?.text
+            else{
+                return
+            }
+                    let habit = Habit(text: text, days: [false])
+            
+            let newIndexPath = IndexPath(row: self.habits.count, section: 0)
+            
+            self.habits.append(habit)
+            self.habitTable.insertRows(at: [newIndexPath], with: .fade)
+                   
+        }
+        
+        alert.addAction(addButton)
+        
+        let cancelButton = UIAlertAction(title: "Cancel", style: .cancel)
+        
+        alert.addAction(cancelButton)
+        
+        self.present(alert, animated: true)
+    }
     
     override func viewDidLoad() {
         habitTable.dataSource = self
@@ -36,6 +65,8 @@ class HabitView: UIViewController, UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 80
     }
+    
+    
     
     
 }
