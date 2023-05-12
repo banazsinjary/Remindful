@@ -26,4 +26,11 @@ The habit tracking app is designed to help students prioritize their healthy hab
 
 Banaz Sinjary
 
+## Resources Used 
+* Tasks app lecture
+* Core data lecture 
+* [Custom table cells](https://www.youtube.com/watch?v=BJNahaK-mug&t=328s)
+* [Custom cell button set up](https://www.youtube.com/watch?v=NdWPj61wl7g&t=1s)
+* [Stack view use](https://www.hackingwithswift.com/read/34/2/creating-the-interface-with-uistackview)
+
 
