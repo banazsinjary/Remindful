@@ -25,16 +25,15 @@ class HabitCell: UITableViewCell {
     }
     
     @IBAction func dayButtonTapped(_ sender: UIButton) {
-        let tag = sender.tag
-        for button in dayButtons{
-            if button.tag == tag{
-                button.backgroundColor = UIColor.black
-                button.setTitleColor(.white, for: .normal)
+        sender.isSelected = !sender.isSelected
+            
+            if sender.isSelected {
+                sender.backgroundColor = UIColor.black
+                sender.setTitleColor(.white, for: .normal)
+            } else {
+                sender.backgroundColor = UIColor.clear
+                sender.setTitleColor(.black, for: .normal)
             }
-            else{
-                //stays the same
-            }
-        }
     }
     
 }
