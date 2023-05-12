@@ -49,6 +49,7 @@ class HabitView: UIViewController, UITableViewDelegate, UITableViewDataSource {
         habitTable.dataSource = self
         habitTable.delegate = self
         habitTable.register(UINib(nibName: "HabitCell", bundle: nil), forCellReuseIdentifier: "HabitCell")
+        habitTable.separatorStyle = .none
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
