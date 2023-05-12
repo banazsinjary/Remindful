@@ -16,6 +16,14 @@ class HabitCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        
+        // Make buttons round
+        for button in dayButtons {
+                    button.layer.cornerRadius = button.frame.height / 2
+                    button.layer.borderWidth = 1.0
+                    button.layer.borderColor = UIColor.black.cgColor
+                    button.clipsToBounds = true
+                }
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

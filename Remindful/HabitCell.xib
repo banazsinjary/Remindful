@@ -4,6 +4,7 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -30,7 +31,7 @@
                                 <constraints>
                                     <constraint firstAttribute="width" constant="39" id="qxg-qy-Edc"/>
                                 </constraints>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="s">
                                     <backgroundConfiguration key="background">
@@ -46,7 +47,7 @@
                                 <constraints>
                                     <constraint firstAttribute="width" constant="39" id="LJ8-uf-IzO"/>
                                 </constraints>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="m">
                                     <backgroundConfiguration key="background">
@@ -62,7 +63,7 @@
                                 <constraints>
                                     <constraint firstAttribute="width" constant="39" id="SYR-DC-rAu"/>
                                 </constraints>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="t">
                                     <backgroundConfiguration key="background">
@@ -78,7 +79,7 @@
                                 <constraints>
                                     <constraint firstAttribute="width" constant="39" id="FdS-xH-5e1"/>
                                 </constraints>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="w">
                                     <backgroundConfiguration key="background">
@@ -94,7 +95,7 @@
                                 <constraints>
                                     <constraint firstAttribute="width" constant="39" id="b5S-pq-ecq"/>
                                 </constraints>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="t">
                                     <backgroundConfiguration key="background">
@@ -106,11 +107,11 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ale-o7-vWY">
-                                <rect key="frame" x="215" y="0.0" width="39" height="34.333333333333336"/>
+                                <rect key="frame" x="215" y="0.0" width="35.333333333333343" height="34.333333333333336"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="39" id="PTx-eq-4KZ"/>
                                 </constraints>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="f">
                                     <backgroundConfiguration key="background">
@@ -122,11 +123,11 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F0n-Nb-xN8">
-                                <rect key="frame" x="261.66666666666669" y="0.0" width="38.333333333333314" height="34.333333333333336"/>
+                                <rect key="frame" x="261" y="0.0" width="39" height="34.333333333333336"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="39" id="12d-OF-zCM"/>
                                 </constraints>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="s">
                                     <backgroundConfiguration key="background">
@@ -164,4 +165,9 @@
             <point key="canvasLocation" x="94" y="-4"/>
         </tableViewCell>
     </objects>
+    <resources>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
 </document>
