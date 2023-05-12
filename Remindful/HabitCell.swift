@@ -29,7 +29,7 @@ class HabitCell: UITableViewCell {
         for button in dayButtons{
             if button.tag == tag{
                 button.backgroundColor = UIColor.black
-                button.setTitleColor(.black, for: .normal)
+                button.setTitleColor(.white, for: .normal)
             }
             else{
                 //stays the same
