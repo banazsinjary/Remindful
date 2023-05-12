@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB77EFA22A0DB2DB00522EA9 /* HabitCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB77EFA02A0DB2DB00522EA9 /* HabitCell.swift */; };
+		AB77EFA32A0DB2DB00522EA9 /* HabitCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB77EFA12A0DB2DB00522EA9 /* HabitCell.xib */; };
 		ABAF412C29E7369600669FB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAF412B29E7369600669FB0 /* AppDelegate.swift */; };
 		ABAF412E29E7369600669FB0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAF412D29E7369600669FB0 /* SceneDelegate.swift */; };
 		ABAF413029E7369600669FB0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAF412F29E7369600669FB0 /* ViewController.swift */; };
@@ -40,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AB77EFA02A0DB2DB00522EA9 /* HabitCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitCell.swift; sourceTree = "<group>"; };
+		AB77EFA12A0DB2DB00522EA9 /* HabitCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HabitCell.xib; sourceTree = "<group>"; };
 		ABAF412829E7369600669FB0 /* Remindful.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Remindful.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABAF412B29E7369600669FB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABAF412D29E7369600669FB0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -114,6 +118,8 @@
 				ABAF412D29E7369600669FB0 /* SceneDelegate.swift */,
 				ABAF412F29E7369600669FB0 /* ViewController.swift */,
 				ABAF415C29E7406100669FB0 /* HabitView.swift */,
+				AB77EFA02A0DB2DB00522EA9 /* HabitCell.swift */,
+				AB77EFA12A0DB2DB00522EA9 /* HabitCell.xib */,
 				ABAF415E29E740CE00669FB0 /* ToDoView.swift */,
 				ABB0E0FE29F5C33A00C8AD47 /* LandingPageView.swift */,
 				ABAF413129E7369600669FB0 /* Main.storyboard */,
@@ -247,6 +253,7 @@
 			files = (
 				ABAF413829E7369700669FB0 /* LaunchScreen.storyboard in Resources */,
 				ABAF413529E7369700669FB0 /* Assets.xcassets in Resources */,
+				AB77EFA32A0DB2DB00522EA9 /* HabitCell.xib in Resources */,
 				ABAF413329E7369600669FB0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,6 +281,7 @@
 			files = (
 				ABAF413029E7369600669FB0 /* ViewController.swift in Sources */,
 				ABB0E0FF29F5C33A00C8AD47 /* LandingPageView.swift in Sources */,
+				AB77EFA22A0DB2DB00522EA9 /* HabitCell.swift in Sources */,
 				ABAF415D29E7406100669FB0 /* HabitView.swift in Sources */,
 				ABAF412C29E7369600669FB0 /* AppDelegate.swift in Sources */,
 				ABAF412E29E7369600669FB0 /* SceneDelegate.swift in Sources */,

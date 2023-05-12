@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "858FA4BA-13E6-4D2B-82B4-306F249993B4"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7D4CCCBA-E038-4A4A-8075-A477A393046C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Remindful/HabitView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "HabitView"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "7D4CCCBA-E038-4A4A-8075-A477A393046C - 290b79ea8b326a24"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Remindful.HabitView.habitName.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "Remindful"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/banazsinjary/Documents/Projects/Remindful/Remindful/HabitView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "6"
+                  endingLineNumber = "6"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "7D4CCCBA-E038-4A4A-8075-A477A393046C - 1e7feded038e5fe0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Remindful.HabitView.habitName.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "Remindful"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/banazsinjary/Documents/Projects/Remindful/Remindful/HabitView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "6"
+                  endingLineNumber = "6"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "7D4CCCBA-E038-4A4A-8075-A477A393046C - bdde52b7e1fa293b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Remindful.HabitView.habitName.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "Remindful"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/banazsinjary/Documents/Projects/Remindful/Remindful/HabitView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "6"
+                  endingLineNumber = "6"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "7D4CCCBA-E038-4A4A-8075-A477A393046C - 19aea7ef359911f0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Remindful.HabitView.habitName.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Remindful"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/banazsinjary/Documents/Projects/Remindful/Remindful/HabitView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "6"
+                  endingLineNumber = "6"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "7D4CCCBA-E038-4A4A-8075-A477A393046C - 48db691bdcc78ff2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Remindful.HabitView.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Remindful.HabitView"
+                  moduleName = "Remindful"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/banazsinjary/Documents/Projects/Remindful/Remindful/HabitView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "6"
+                  endingLineNumber = "6"
+                  offsetFromSymbolStart = "124">
+               </Location>
+               <Location
+                  uuid = "7D4CCCBA-E038-4A4A-8075-A477A393046C - 891f21bff6f5fe0d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Remindful.HabitView.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Remindful.HabitView&gt;"
+                  moduleName = "Remindful"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/banazsinjary/Documents/Projects/Remindful/Remindful/HabitView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "6"
+                  endingLineNumber = "6"
+                  offsetFromSymbolStart = "100">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
