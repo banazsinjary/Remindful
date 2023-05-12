@@ -1,16 +1,11 @@
 import UIKit
 
-struct Item {
-    let text: String
-    let isDone: Bool
-}
-
 class ToDoView: UIViewController, UITableViewDelegate, UITableViewDataSource{
     
-    var items: [Item] = [
-        Item(text: "wake up at 8am", isDone: false),
-        Item(text: "mindfulness", isDone: false)
-    ]
+    let store: ItemStore = CoreDataItemsStore()
+    
+    var items: [Item] = []
+    
     @IBOutlet weak var tableView: UITableView!
     @IBAction func newItemButton(_ sender: UIBarButtonItem) {
         
@@ -30,6 +25,7 @@ class ToDoView: UIViewController, UITableViewDelegate, UITableViewDataSource{
             let newIndexPath = IndexPath(row: self.items.count, section: 0)
             
             self.items.append(item)
+            self.store.save(item: item)
             self.tableView.insertRows(at: [newIndexPath], with: .fade)
                    
         }
@@ -45,6 +41,9 @@ class ToDoView: UIViewController, UITableViewDelegate, UITableViewDataSource{
     }
     
     override func viewDidLoad() {
+        
+        items = store.fetchItem()
+        
         tableView.delegate = self
         tableView.dataSource = self
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "taskCell")
@@ -68,6 +67,8 @@ class ToDoView: UIViewController, UITableViewDelegate, UITableViewDataSource{
     
     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete {
+            let item = items[indexPath.row]
+            store.delete(item: item)
             items.remove(at: indexPath.row)
             tableView.deleteRows(at: [indexPath], with: .fade)
         }

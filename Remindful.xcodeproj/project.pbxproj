@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB72A37C2A0EBD1F0072C15B /* Habit.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB72A37B2A0EBD1F0072C15B /* Habit.swift */; };
+		AB72A37E2A0EBD6F0072C15B /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB72A37D2A0EBD6F0072C15B /* Item.swift */; };
+		AB72A3802A0EC0210072C15B /* CoreDataItemsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB72A37F2A0EC0210072C15B /* CoreDataItemsStore.swift */; };
+		AB72A3862A0EC93E0072C15B /* Core.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AB72A3842A0EC93E0072C15B /* Core.xcdatamodeld */; };
+		AB72A38A2A0ECAA60072C15B /* CoreDataHabitsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB72A3892A0ECAA60072C15B /* CoreDataHabitsStore.swift */; };
 		AB77EFA22A0DB2DB00522EA9 /* HabitCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB77EFA02A0DB2DB00522EA9 /* HabitCell.swift */; };
 		AB77EFA32A0DB2DB00522EA9 /* HabitCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB77EFA12A0DB2DB00522EA9 /* HabitCell.xib */; };
 		ABAF412C29E7369600669FB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAF412B29E7369600669FB0 /* AppDelegate.swift */; };
@@ -42,6 +47,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AB72A37B2A0EBD1F0072C15B /* Habit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habit.swift; sourceTree = "<group>"; };
+		AB72A37D2A0EBD6F0072C15B /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		AB72A37F2A0EC0210072C15B /* CoreDataItemsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataItemsStore.swift; sourceTree = "<group>"; };
+		AB72A3852A0EC93E0072C15B /* Core.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Core.xcdatamodel; sourceTree = "<group>"; };
+		AB72A3892A0ECAA60072C15B /* CoreDataHabitsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHabitsStore.swift; sourceTree = "<group>"; };
 		AB77EFA02A0DB2DB00522EA9 /* HabitCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitCell.swift; sourceTree = "<group>"; };
 		AB77EFA12A0DB2DB00522EA9 /* HabitCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HabitCell.xib; sourceTree = "<group>"; };
 		ABAF412829E7369600669FB0 /* Remindful.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Remindful.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -126,6 +136,11 @@
 				ABAF413429E7369700669FB0 /* Assets.xcassets */,
 				ABAF413629E7369700669FB0 /* LaunchScreen.storyboard */,
 				ABAF413929E7369700669FB0 /* Info.plist */,
+				AB72A37B2A0EBD1F0072C15B /* Habit.swift */,
+				AB72A37D2A0EBD6F0072C15B /* Item.swift */,
+				AB72A37F2A0EC0210072C15B /* CoreDataItemsStore.swift */,
+				AB72A3892A0ECAA60072C15B /* CoreDataHabitsStore.swift */,
+				AB72A3842A0EC93E0072C15B /* Core.xcdatamodeld */,
 			);
 			path = Remindful;
 			sourceTree = "<group>";
@@ -280,10 +295,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABAF413029E7369600669FB0 /* ViewController.swift in Sources */,
+				AB72A3802A0EC0210072C15B /* CoreDataItemsStore.swift in Sources */,
+				AB72A37C2A0EBD1F0072C15B /* Habit.swift in Sources */,
 				ABB0E0FF29F5C33A00C8AD47 /* LandingPageView.swift in Sources */,
 				AB77EFA22A0DB2DB00522EA9 /* HabitCell.swift in Sources */,
 				ABAF415D29E7406100669FB0 /* HabitView.swift in Sources */,
+				AB72A38A2A0ECAA60072C15B /* CoreDataHabitsStore.swift in Sources */,
+				AB72A3862A0EC93E0072C15B /* Core.xcdatamodeld in Sources */,
 				ABAF412C29E7369600669FB0 /* AppDelegate.swift in Sources */,
+				AB72A37E2A0EBD6F0072C15B /* Item.swift in Sources */,
 				ABAF412E29E7369600669FB0 /* SceneDelegate.swift in Sources */,
 				ABD9E7CA29F8DF3300867343 /* TabViewController.swift in Sources */,
 				ABAF415F29E740CE00669FB0 /* ToDoView.swift in Sources */,
@@ -622,6 +642,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AB72A3842A0EC93E0072C15B /* Core.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AB72A3852A0EC93E0072C15B /* Core.xcdatamodel */,
+			);
+			currentVersion = AB72A3852A0EC93E0072C15B /* Core.xcdatamodel */;
+			path = Core.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = ABAF412029E7369600669FB0 /* Project object */;
 }

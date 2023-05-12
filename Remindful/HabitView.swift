@@ -1,17 +1,10 @@
 import UIKit
 
-struct Habit{
-    let text: String
-    let days: [Bool]
-}
-
-
 class HabitView: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
-    var habits: [Habit]=[
-        Habit(text: "yoga practice", days: [false]),
-        Habit(text: "run 2 miles", days: [false])
-    ]
+    let store: HabitStore = CoreDataHabitsStore()
+    
+    var habits: [Habit]=[]
     
     @IBOutlet weak var habitTable: UITableView!
     
@@ -27,11 +20,12 @@ class HabitView: UIViewController, UITableViewDelegate, UITableViewDataSource {
             else{
                 return
             }
-                    let habit = Habit(text: text, days: [false])
+                    let habit = Habit(text: text, days: false)
             
             let newIndexPath = IndexPath(row: self.habits.count, section: 0)
             
             self.habits.append(habit)
+            self.store.save(habit: habit)
             self.habitTable.insertRows(at: [newIndexPath], with: .fade)
                    
         }
@@ -46,6 +40,9 @@ class HabitView: UIViewController, UITableViewDelegate, UITableViewDataSource {
     }
     
     override func viewDidLoad() {
+        
+        habits = store.fetchItem()
+        
         habitTable.dataSource = self
         habitTable.delegate = self
         habitTable.register(UINib(nibName: "HabitCell", bundle: nil), forCellReuseIdentifier: "HabitCell")
@@ -65,6 +62,8 @@ class HabitView: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete {
+            let habit = habits[indexPath.row]
+           store.delete(habit: habit)
             habits.remove(at: indexPath.row)
             habitTable.deleteRows(at: [indexPath], with: .fade)
         }
@@ -74,8 +73,5 @@ class HabitView: UIViewController, UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 80
     }
-    
-    
-    
     
 }
