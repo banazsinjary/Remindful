@@ -37,10 +37,10 @@ class HabitCell: UITableViewCell {
             
             if sender.isSelected {
                 sender.backgroundColor = UIColor.black
-                sender.setTitleColor(.white, for: .normal)
+                sender.tintColor = UIColor.white
             } else {
                 sender.backgroundColor = UIColor.clear
-                sender.setTitleColor(.black, for: .normal)
+                sender.tintColor = UIColor.black
             }
     }
     
